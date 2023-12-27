@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+    width: 300px; /* Додайте ширину до елементу галереї */
+  }
+  
+  .gallery-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Забезпечте рівномірний розмір для всіх зображень */
+  }
